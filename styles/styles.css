@@ -239,3 +239,25 @@ main{
 .currency__table-container .stonks{
     background-image: url('../assets/icons/trending-up.svg');
 }
+
+.currency__date{
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 8px;
+}
+.currency__date p{
+    font-size: 1.2rem;
+    color: var(--warm-black);
+    line-height: 1.5rem;
+}
+
+.orange-date{
+    background-color: var(--soft-orange);
+}
+
+.blue-date{
+    background-color: var(--soft-blue);
+}
