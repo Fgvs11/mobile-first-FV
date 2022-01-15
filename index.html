@@ -9,10 +9,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;0,700;1,400&family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/tablet.css" media="(min-width: 930px)">
 </head>
 <body>
     <header>
-        <img src="./assets/img/logo.svg" alt="logo">
+        <img loading="lazy" src="./assets/img/logo.svg" alt="logo">
         <div class="header__tittle-container">
             <h1>La próxima revolución en el intercambio de criptomonedas.</h1>
             <p>Batatabit ayuda a navegar entre los diferentes precios y tendencias.</p>
@@ -122,19 +123,19 @@
             </div>
             <section class="plans__container--slider">
                 <article class="plans__card-container">
+                    <div class="card__body-container">
+                        <h3 class="body__tittle">Pago Mensual</h3>
+                        <p class="body__price"><span>$</span>19</p>
+                        <p class="body__saving">*Pierdes $129 comparado al plan anual.</p>
+                        <button class="body__ca">Escoger este <span></span></button>
+                    </div>
+                </article>
+                <article class="plans__card-container">
                     <p class="recommended">Recomendado</p>
                     <div class="card__body-container">
                         <h3 class="body__tittle">Pago Anual</h3>
                         <p class="body__price"><span>$</span>99</p>
                         <p class="body__saving">*Ahorras $129 comparado al plan mensual.</p>
-                        <button class="body__ca">Escoger este <span></span></button>
-                    </div>
-                </article>
-                <article class="plans__card-container">
-                    <div class="card__body-container">
-                        <h3 class="body__tittle">Pago Mensual</h3>
-                        <p class="body__price"><span>$</span>19</p>
-                        <p class="body__saving">*Pierdes $129 comparado al plan anual.</p>
                         <button class="body__ca">Escoger este <span></span></button>
                     </div>
                 </article>
@@ -150,7 +151,16 @@
         </section>
     </main>
     <footer>
-
+        <section class="footer__left">
+            <ul>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">Crunchbase</a></li>
+                <li><a href="#">Hackernews</a></li>
+            </ul>
+        </section>
+        <section class="footer__right">
+            <img loading="lazy" src="./assets/img/logo-footer.svg" alt="Logo Batatabit 2021">
+        </section>
     </footer>
 </body>
 </html>
